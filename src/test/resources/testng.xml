@@ -1,0 +1,10 @@
+<suite name="Suite1" verbose="1" >
+    <parameter name="browser" value="CHROME"/>
+    <!--<parameter name="browser" value="FIREFOX"/>-->
+
+    <test name="Test browser" >
+        <classes>
+            <class name="TestBrowser" />
+        </classes>
+    </test>
+</suite>
